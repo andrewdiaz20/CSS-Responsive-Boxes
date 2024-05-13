@@ -1,3 +1,58 @@
 body {
   background: peachpuff;
 }
+/* @media (min-width:330px) {
+  .container{
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .a{
+    border: 5px solid black;
+    width: 100%;
+    height: 25vh;
+  }
+  .b,.c,.d,.e,.f,.g{
+    border: 5px solid black;
+    width: 10vh;
+    height: 10vh;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .h{
+    border: 5px solid black;
+    width: 100%;
+    height: 25vh;
+  }
+} */
+@media (min-width:914px) {
+  .container{
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .a{
+    border: 5px solid black;
+    width: 100%;
+    height: 30svh;
+  }
+  .b,.c,.d{
+    border: 5px solid black;
+    width: 10vh;
+    height: 10vh;
+    margin-left: 10vh;
+  }
+  .e,.f,.g{
+    border: 5px solid black;
+    width: 10vh;
+    height: 10vh;
+    margin-left: 10vh;
+  }
+  .h{
+    border: 5px solid black;
+    width: 25vh;
+    height: 40vh;
+  }
+}

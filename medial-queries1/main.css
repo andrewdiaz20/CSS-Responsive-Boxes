@@ -1,36 +1,37 @@
 body {
   background: blanchedalmond;
 }
-
-.container {
-  border-style: solid;
-  border-width: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: auto;
+@media (min-width:914px) {
+  .container {
+    border-style: solid;
+    border-width: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: auto;
+  }
+  
+  .a {
+    height: 300px;
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+  }
+  
+  .b {
+    height: 600px;
+    width: 125vh;
+    border-style: solid;
+    border-width: 5px;
+  }
+  
+  .c {
+    height: 600px;
+    width: 51vh;
+    border-style: solid;
+    border-width: 5px;
+  }
+  
 }
-
-.a {
-  height: 300px;
-  width: 100%;
-  border-style: solid;
-  border-width: 5px;
-}
-
-.b {
-  height: 600px;
-  width: 125vh;
-  border-style: solid;
-  border-width: 5px;
-}
-
-.c {
-  height: 600px;
-  width: 51vh;
-  border-style: solid;
-  border-width: 5px;
-}
-
 @media(min-width: 430px) {
   body {
     background: tan;
